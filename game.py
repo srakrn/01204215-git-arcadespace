@@ -1,4 +1,5 @@
 import arcade
+from models impor Ship
 
 SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 600
