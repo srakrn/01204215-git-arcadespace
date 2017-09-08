@@ -6,7 +6,7 @@ SCREEN_HEIGHT = 600
 class SpaceGameWindow(arcade.Window):
     def __init__(self, width, height):
         super().__init__(width, height)
-        arcade.set_background_color(arcade.color.BLACK)
+        arcade.set_background_color((55,71,79))
         self.ship = arcade.Sprite('assets/images/rocket.png')
         self.ship.set_position(100, 100)
 
