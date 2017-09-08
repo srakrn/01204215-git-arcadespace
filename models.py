@@ -1,4 +1,3 @@
-from ship import Ship
 class Ship:
     def __init__(self, x, y):
         self.x = x
